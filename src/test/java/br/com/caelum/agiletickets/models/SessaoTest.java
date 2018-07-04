@@ -42,7 +42,7 @@ public class SessaoTest {
 	public void deveVender2IngressosSeHVagas() throws Exception {
 		Sessao sessao = new Sessao();
 		sessao.setTotalIngressos(2);
-
+		// blah blah
 		Assert.assertTrue(sessao.podeReservar(2));
 	}
 	
