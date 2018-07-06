@@ -83,7 +83,7 @@
           target: war
          ================================= -->
 	<target name="war" description="--> generate war file" depends="test">
-		<move file="${build.dir}/META-INF/${persistence}" 
+		<move file="${build.dir}/META-INF/persistence-homolog.xml" 
 			tofile="${build.dir}/META-INF/persistence.xml">
 		</move>
 		<war destfile="${output.dir}/${project.name}.war">
